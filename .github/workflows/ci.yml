@@ -32,4 +32,4 @@ jobs:
 
       - name: Test
         run: |
-          java -jar junit.jar execute -cp "build/classes:build/test-classes" --details=tree
+          java -jar junit.jar execute -cp "build/classes:build/test-classes" --scan-class-path --details=tree
